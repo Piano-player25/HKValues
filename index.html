@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165261047-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-165261047-1');
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700%7CRoboto:400,700" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<link href='style.css' rel='stylesheet' type='text/css' />
+	<title>HKValues</title>
+	<link rel="icon" type="image/png" href="icon.png" />
+	<link rel="shortcut icon" type="image/png" href="icon.png" />
+	<meta name="google-site-verification" content="RkqiE7Cf34S7DX2hjmhJSYeYTprYnAU8Zncvznrc0HY" />
+	<meta charset="utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="navdiv">
+		<ul class="ulnav">
+			<li class="rvlogo"><b><a>HKValues</a></li></b><br>
+			<li class="nav"> <a class="activenav" href="#">
+				<span data-i18n="index">Index</span></a></li>
+			<li class="nav"> <a href="instructions.html">
+				<span data-i18n="inst-h2">Instructions</span></a></li>
+			<li class="nav"> <a href="quiz.html">
+				<span data-i18n="quiz">Quiz</span></a></li>
+			<li class="nav" id="navres"> <a href="#">
+				<span data-i18n="result-h1">Results</span></a></li>
+		</ul>
+	</div>
+
+	<div class="main">
+		<a href="https://github.com/rightvaluestest/rightvaluestest.github.io" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style> <!-- CHANGER ÇA PLUS TARD -->
+		<style>
+			.github-corner:hover .octo-arm {
+				animation: octocat-wave 560ms ease-in-out
+			}
+
+			@keyframes octocat-wave {
+				0%, 100% {
+					transform: rotate(0)
+				}
+				20%, 60% {
+					transform: rotate(-25deg)
+				}
+				40%, 80% {
+					transform: rotate(10deg)
+				}
+			}
+
+			@media (max-width:500px) {
+				.github-corner:hover .octo-arm {
+					animation: none
+				}
+
+				.github-corner .octo-arm {
+					animation: octocat-wave 560ms ease-in-out
+				}
+			}
+		</style>
+		<br /><br />
+		<h1>HKValues</h1>
+		<select id="langPicker"></select>
+		<hr />
+		<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;" id="startbutton" data-i18n="index-start">Start Now!</button>
+		<div class="tab">
+			<button class="tablinks" onclick="openLang(event, 'about') " id="defaultOpen" data-i18n="tab-about">About</button>
+			<button class="tablinks" onclick="openLang(event, 'values') " data-i18n="tab-values">The Values</button>
+		</div>
+		<br />
+		<div id="about" class="tabcontent">
+		<p data-i18n="index-about">DISCLAIMER : THIS QUIZ IS MEANT FOR MEMES AND IS BY NO MEANS TO BE TAKEN SERIOUSLY. THE STATEMENTS THAT IT MIGHT MAKE ABOUT YOU ARE NOT MEANT TO BE ACCURATE OR SERIOUSLY OFFENSIVE. YOU WERE WARNED.<br /><br />
+		HKValues is a meme quiz for the people who are interested in the game Hollow Knight, based on the (in)famous political tests derived from 8values (code is taken from <a href="https://github.com/rightvaluestest/rightvaluestest.github.io">RightValues</a>). If you don't know about Hollow Knight, this quiz is obviously not suited for you, but you can try it anyway. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
+    		There are <b><u>70 (change ?)</u></b> questions in the generic main test.<br /><br />
+	
+    		Contrarily to 8values, this quiz will attempt to match you with a specific Hollow Knight personality type (instead of a political ideology), which is shown in the "Closest Match" section.
+    		Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. 
+    		If you have any suggestions or constructive criticism please open an issue in the Github, linked in the upper right corner of this page. </p>
+	<br> 
+	
+	<p data-i18n="index-license"> 8values is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". LeftValues is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". RightValues is thus able to legally modify the original 8values without infringing on any copyright. RightValues is based on LeftValues and 8Values. RightValues is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". HKValues is thus able to legally modify the original 8values without infringing on any copyright. HKValues is based on RightValues, LeftValues and 8Values.</p>
+	
+	<br>
+	<button data-i18n="license-link" class="small_button" id="licensebutton" onclick="location.href='https://github.com/rightvaluestest/rightvaluestest.github.io/blob/main/LICENSE';" style="margin: 0; font-size: 12pt;">License</button> <!-- CHANGER ÇA AUSSI -->
+</div>
+	
+	
+<div id="values" class="tabcontent">
+	<h2 data-i18n="index-valueswhat">What are the values?</h2>
+	<p data-i18n="index-valuesdesc">There are currently seven axes, each of which has two opposing values. They are:</p>
+	<ul>
+		<li>
+			<b><span style="color: blue">Pale King</span> vs. <span style="color: red">Radiance</span></b> <br />
+			Those with a higher Pale King score tend to think that the Pale King's controversial actions (such as leaving his children for dead) were justified in the context of the Radiance's infection, and support a unitary monarchy for Hallownest. Those with a higher Radiance score tend to think that the Radiance's murderous actions were justified since the Pale King took her land and worshippers, and support an authoritarian hive-mind regime for Hallownest.
+		</li>
+		<li>
+			<b><span style="color: blue">Quirrnet</span> vs. <span style="color: red">Lacenet</span></b> <br />
+			Those with a higher Quirrnet score tend to think that Hornet and Quirrel have an interesting alchemy as a couple and are interested in shipping them ; they usually try to argue that the age gap between these two is smaller than what most people believe. Those with a higher Lacenet score either think that the age gap is too large between Quirrel and Hornet or simply don't care, and are more interested in shipping Hornet with the Silksong character Lace. Usually they tend to prefer lesbian couples to heterosexual ones, or (most likely) they are just way too obsessed by Silksong (btw, if you're reading this in the future, please tell me Silksong has released :&rt;).
+		</li>
+		<li>
+			<b><span style="color: red">Challenges</span> vs. <span style="color: green">Fan-content</span></b> <br />
+			Those with a higher Challenges score usually spend their free time playing the game, and at high scores they usually try challenges such as the Pantheons, Speedruns or Randomisers. Those with a higher Fan-content score are generally bad at the game (sorry :&rt;) and tend to spend their free time producing fan-made content such as fan-art, fan-fictions, or even fan-games.
+		</li>
+		<li>
+			<b><span style="color: green">Cute</span> vs. <span style="color: red">Rule 34</span></b> <br />
+			Those with a higher Cute score tend to appreciate the art style of the characters and enjoy seeing them represented (or represent them) in away that focuses on their cuteness. At a high score, they may think that sexualising these characters is inherently bad and that bug porn should be banned from the daily lives of people. Those with a higher Rule 34 score enjoy watching pornography and sexualisation of Hollow Knight characters, and at a high score they might be unable to spend a day without doing so (and if you're at over 75%, there's a big chance that you need therapy).
+		</li>
+		<li>
+			<b><span style="color: blue">Pro-Makoth</span> vs. <span style="color: red">Anti-Markoth</span></b> <br />
+			Those with a higher Pro-Markoth score do not agree with the mainstream opinion that Markoth is a bad boss and may find enjoyment in fighting him in Godhome. At high scores, they will even be fine with Radiant Markoth and might be rejected by the main Hollow Knight community for their unpopular opinions. Those with a higher Anti-Markoth score tend to find Markoth annoying compared to most other bosses in the game, and at high scores they may advocate for him to be removed from the game.
+		</li>
+		<li>
+			<b><span style="color: green">Piano25 lover</span> vs. <span style="color: red">Piano25 hater</span></b> <br />
+			Those with a higher Piano-player25 lover score tend to agree with me on several points, and might think I'd be a good moderator/admin/president (and I love you too &lt;3). At high scores, they may call me "based" or share my works on their personal social media accounts. Those with a higher Piano-player25 hater score tend to disagree with me, and usually think I should absolutely not be given power unless absolutely necessary (and I hate you too &gt;:-) ). At high scores, they might find a good idea to remove me from society altogether.
+		</li>
+		<li>
+			<b><span style="color: blue">Mild</span> vs. <span style="color: red">Addicted</span></b> <br />
+			Those with a higher Mild score tend to spend less of their time playing Hollow Knight or doing Hollow Knight related stuff and focus more on their real life or other games. Those with a higher Addicted score usually dedicate a lot of their time playing the game or making fan-content, and at high scores they might argue that Hollowknightism is a valid religion (and obviously, do a prayer to Team Cherry every morning and evening).
+		</li>
+	</ul>
+</div>
+	
+</div>
+
+    <script type="text/javascript">
+	    
+	document.getElementById("defaultOpen").click();
+	    
+	function openLang(evt, langName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+  	  for (i = 0; i < tabcontent.length; i++) {
+    	  tabcontent[i].style.display = "none";
+  	}
+
+  	tablinks = document.getElementsByClassName("tablinks");
+  	   for (i = 0; i < tablinks.length; i++) {
+    	   tablinks[i].className = tablinks[i].className.replace(" active", "");
+  	}
+
+	document.getElementById(langName).style.display = "block";
+  	evt.currentTarget.className += " active";
+	} 
+	    
+    </script>
+	
+    <script type="application/javascript" src="questions.js"></script>
+    <script type="application/javascript" src="i18n.js"></script>
+    <script type="text/javascript">
+        loadTranslation().then(() => {
+            document.getElementById("numOfQuestions").innerHTML = Object.size(questions)
+        })
+    </script>
+</body>
+
+</html>
