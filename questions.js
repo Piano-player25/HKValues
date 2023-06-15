@@ -13,28 +13,28 @@ questions = [
 "i18n": {"fr": "La décision du Roi Pâle de laisser ses enfants mourir était justifiée."},
 "effect": { "a": 5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
-{"question": "The Pale King was evil because he cheated on his wife.",
-"i18n": {"fr": "Le Roi Pâle était mauvais car il a trompé sa femme."},
+{"question": "Cheating and adultery are unacceptable, even if the fate of the world is at stake.",
+"i18n": {"fr": "La tromperie et l'adultère sont inacceptables, même si le sort du monde en dépend."},
 "effect": { "a": -5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
-{"question": "The Radiance was evil.",
-"i18n": {"fr": "La Radiance était mauvaise."},
+{"question": "I would rather live in a technologically and culturally advanced society than in a tribal society.",
+"i18n": {"fr": "LJe préférerais vivre dans une société technologiquement et culturellement avancée que dans une société tribale."},
 "effect": { "a": 5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
-{"question": "The Pale King should have followed the White Lady's example in exiling himself out of shame.",
-"i18n": {"fr": "Le Roi Pâle aurait dû suivre l'exemple de la Dame Blanche en s'exilant de honte."},
+{"question": "The industrial revolution and its consequences have been a disaster for the bug race.",
+"i18n": {"fr": "La révolution industrielle et ses conséquences ont été un désastre pour la race des insectes."},
 "effect": { "a": -5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
-{"question": "An absolute monarchy is preferrable to a hive-mind regime.",
-"i18n": {"fr": "Une monarchie absolue est préférable à un régime d'esprit de ruche."},
+{"question": "An absolute monarchy is preferrable to hive-mind collectivism.",
+"i18n": {"fr": "Une monarchie absolue est préférable au collectivisme d'esprit de ruche."},
 "effect": { "a": 5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
 {"question": "I could have lived happily under the Radiance's rule.",
 "i18n": {"fr": "J'aurais pu vivre heureux sous le règne de la Radiance."},
 "effect": { "a": -5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
-{"question": "I do not feel sympathy for the Radiance.",
-"i18n": {"fr": "Je ne ressens pas de sympathie pour la Radiance."},
+{"question": "People should not be afraid of who they are and mask their true self.",
+"i18n": {"fr": "Les gens ne devraient pas avoir peur de qui ils sont et masquer leur vraie personnalité."},
 "effect": { "a": 5, "b": 0, "c": 0, "d": 0, "e": 0, "f": 0, "g": 0 }},
 
 {"question": "I prefer warm, orangey lights over cold, white lights.",
